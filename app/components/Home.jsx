@@ -5,7 +5,7 @@ var Home = (props) => {
     return (
         <div>
             <div>
-                <img src={require('../images/headshot-circle.png')} />
+                <img src={'http://i.imgur.com/6qcPnAr.png'} />
                 <h1>Alec Jandorek</h1>
                 <h3>Web Developer & Marketer</h3>
             </div>
