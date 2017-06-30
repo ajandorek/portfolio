@@ -22,10 +22,7 @@ var Nav = () => {
                             <Link to="/portfolio" activeClassName="hollow" >Portfolio</Link>
                         </li>
                         <li>
-                            <Link to="/" activeClassName="active-link">Blog Posts</Link>
-                        </li>
-                        <li>
-                            <Link to="/" activeClassName="active-link">Contact</Link>
+                            <Link to="/blog" activeClassName="active-link">Blog Posts</Link>
                         </li>
                     </ul>
                 </div>

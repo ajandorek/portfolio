@@ -7,6 +7,7 @@ import Main from 'Main';
 import About from 'About';
 import Home from 'Home';
 import Portfolio from 'Portfolio';
+import Blog from 'Blog';
 
 // Load foundation
 require('style!css!foundation-sites/dist/foundation.min.css');
@@ -20,6 +21,7 @@ ReactDOM.render(
         <Route path="/" component={Main}>
             <Route path="about" component={About} />
             <Route path="portfolio" component={Portfolio} />
+            <Route path="blog" component={Blog} />
             <IndexRoute component={Home} />
         </Route>
     </Router>,
