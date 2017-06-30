@@ -6,6 +6,7 @@ import {Route, Router, IndexRoute, hashHistory} from 'react-router';
 import Main from 'Main';
 import About from 'About';
 import Home from 'Home';
+import Portfolio from 'Portfolio';
 
 // Load foundation
 require('style!css!foundation-sites/dist/foundation.min.css');
@@ -18,6 +19,7 @@ ReactDOM.render(
     <Router history={hashHistory}>
         <Route path="/" component={Main}>
             <Route path="about" component={About} />
+            <Route path="portfolio" component={Portfolio} />
             <IndexRoute component={Home} />
         </Route>
     </Router>,
