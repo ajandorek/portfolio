@@ -1,13 +1,11 @@
 .callout {
-    ul > li {
-        list-style: none;
-        font-style: italic;
-        margin-left: 200px
-    }
-    .hollow {
-        width: 100px;
-        margin: 0 auto;
-        display: block;
+    cursor: pointer;
+    align-items: center;
+    transition: background .3s ease;
+    display: block;
+
+    &:hover {
+        background: #f0f0f0;
     }
 }
 
