@@ -4,8 +4,8 @@ import Contact from 'Contact';
 
 var Home = (props) => {
     return (
-        <div>
-            <div>
+        <div className='grid-container'>
+            <div className='header'>
                 <img src={'http://i.imgur.com/6qcPnAr.png'} />
                 <h1>Alec Jandorek</h1>
                 <h3>Web Developer & Marketer</h3>

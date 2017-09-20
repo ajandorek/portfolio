@@ -3,6 +3,19 @@
     align-items: center;
     transition: background .3s ease;
     display: block;
+    height: 350px;
+
+    p {
+        font-style: italic;
+        margin: 0;
+        padding: 0;
+    }
+
+    img {
+        height: 150px;
+        display: block;
+        margin: auto;
+    }
 
     &:hover {
         background: #f0f0f0;

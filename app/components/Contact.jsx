@@ -3,8 +3,8 @@ import FontAwesome from 'react-fontawesome';
 
 var Contact = () => {
     return (
-        <div className='row'>
-            <div className='columns medium-6 large-8 small-centered'>
+        <div className='grid-container'>
+            <div>
                 <div className="icon-container">
                     <a href="https://www.linkedin.com/in/alecjandorek/" target="_blank">
                         <FontAwesome

@@ -1,7 +1,9 @@
-img {
-    float: left;
-    padding: 10px;
-    width: 250px;
+.header{
+    img {
+        float: left;
+        padding: 10px;
+        width: 250px;
+    }
 }
 
 h1 p {
@@ -11,4 +13,8 @@ h1 p {
 h3 {
     color: $home-subhead-color;
     font-style: italic;
+}
+
+.grid-container {
+    width: 66.77%
 }

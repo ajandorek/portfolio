@@ -6,12 +6,12 @@ var Portfolio = () => {
             <h1 className='text-center page-title'>Portfolio</h1>
             <h4 className='text-center'>A collection of projects I have created or collaborated on</h4>
             <div className="grid-x grid-margin-x">
-                <div className="small-4 large-offset 2 cell">
+                <div className="small-4 large-offset-2 cell">
                     <a className="callout" href="https://fallout-hangman.herokuapp.com/" 
                     target="blank">
                         <h4 className='text-center'>Fallout Hangman</h4>
                         <img src={'http://i.imgur.com/2oyhTTb.png'} />
-                        <p className='text-center'>A simple hangman game with a Fallout Theme.</p>
+                        <p className='text-center'>A simple hangman game with a Fallout theme!</p>
                         <h5 className='text-center'>Technologies Used</h5>
                         <p className='text-center'>Javascript</p>
                     </a>
@@ -21,14 +21,14 @@ var Portfolio = () => {
                     target="blank">
                         <h4 className='text-center'>Overwatch RPG</h4>
                         <img src={'http://i.imgur.com/qbBRC4d.png'} />
-                        <p className='text-center'>A role playing game with an Overwatch spin.</p>
+                        <p className='text-center'>A role playing game with an Overwatch spin!</p>
                         <h5 className='text-center'>Technologies Used</h5>
                         <p className='text-center'>jQuery</p>
                         <p className='text-center'>jQuery UI</p>
                     </a>
                 </div>
             </div>
-            <div className="callout">
+            {/* <div className="callout">
                 <h4 className='text-center'>Map Fun</h4>
                 <img src={'http://i.imgur.com/hB5aqPd.png'} />
                 <p>A maps application that gives the user information about a city.</p>
@@ -52,7 +52,7 @@ var Portfolio = () => {
                     <li>Auth0</li>
                 </ul>
                 <a className='hollow button primary' href="http://react-sports.herokuapp.com/" target="_blank">Click Here</a>
-            </div>
+            </div> */}
         </div>
     );
 }
