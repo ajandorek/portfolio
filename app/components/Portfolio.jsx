@@ -49,6 +49,50 @@ var Portfolio = () => {
                     </a>
                 </div>
             </div>
+            <div className="grid-x grid-margin-x">
+                <div className="small-4 large-offset-2 cell">
+                    <a className="callout" href="https://floating-caverns-89415.herokuapp.com/"
+                        target="blank">
+                        <h4 className='text-center'>Friend Finder</h4>
+                        <img src={'https://i.imgur.com/tWTx5B9.png'} />
+                        <p className='text-center'>A simple App that connects two users based off a survey!</p>
+                        <h5 className='text-center'>Technologies Used</h5>
+                        <p className='text-center'>jQuery, Node, Express</p>
+                    </a>
+                </div>
+                <div className="small-4 cell">
+                    <a className="callout" href="https://dry-tundra-67737.herokuapp.com/"
+                        target="blank">
+                        <h4 className='text-center'>Burger Time!</h4>
+                        <img src={'https://i.imgur.com/WbR2Y9Y.png'} />
+                        <p className='text-center'>A simple application that lets a user create and eat burgers.</p>
+                        <h5 className='text-center'>Technologies Used</h5>
+                        <p className='text-center'>SQL, Sequelize, Express, Handlebars, jQuery</p>
+                    </a>
+                </div>
+            </div>
+            <div className="grid-x grid-margin-x">
+                <div className="small-4 large-offset-2 cell">
+                    <a className="callout" href="https://pacific-meadow-73127.herokuapp.com/"
+                        target="blank">
+                        <h4 className='text-center'>Train Scheduler</h4>
+                        <img src={'https://i.imgur.com/CztFpJz.png'} />
+                        <p className='text-center'>An application that allows a user to schedule and monitor trains!</p>
+                        <h5 className='text-center'>Technologies Used</h5>
+                        <p className='text-center'>jQuery, Firebase, Moment.js</p>
+                    </a>
+                </div>
+                <div className="small-4 cell">
+                    <a className="callout" href="http://vast-fjord-35673.herokuapp.com/"
+                        target="blank">
+                        <h4 className='text-center'>GIFtastic</h4>
+                        <img src={'https://i.imgur.com/bT71daS.jpg'} />
+                        <p className='text-center'>Allows users to search for and view GIFs from the Giphy API.</p>
+                        <h5 className='text-center'>Technologies Used</h5>
+                        <p className='text-center'>jQuery, AJAX, </p>
+                    </a>
+                </div>
+            </div>
         </div>
     );
 }
