@@ -19,7 +19,7 @@ var Portfolio = () => {
                 <div className="small-4 cell">
                     <a className="callout" href="http://react-sports.herokuapp.com/"
                         target="blank">
-                        <h4 className='text-center'>React Sports</h4>
+                        <h4 className='text-center'>PickUp (Under Construction)</h4>
                         <img src={'http://i.imgur.com/ZLPMLf9.png'} />
                         <p className='text-center'>An application that allows a user to search for local pickup games.</p>
                         <h5 className='text-center'>Technologies Used</h5>
@@ -45,7 +45,7 @@ var Portfolio = () => {
                         <img src={'http://i.imgur.com/qbBRC4d.png'} />
                         <p className='text-center'>A role playing game with an Overwatch spin!</p>
                         <h5 className='text-center'>Technologies Used</h5>
-                        <p className='text-center'>jQuery, jQueryUI</p>
+                        <p className='text-center'>jQuery & jQueryUI</p>
                     </a>
                 </div>
             </div>
@@ -89,7 +89,7 @@ var Portfolio = () => {
                         <img src={'https://i.imgur.com/bT71daS.jpg'} />
                         <p className='text-center'>Allows users to search for and view GIFs from the Giphy API.</p>
                         <h5 className='text-center'>Technologies Used</h5>
-                        <p className='text-center'>jQuery, AJAX</p>
+                        <p className='text-center'>jQuery & AJAX</p>
                     </a>
                 </div>
             </div>
