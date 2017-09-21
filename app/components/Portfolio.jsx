@@ -89,7 +89,7 @@ var Portfolio = () => {
                         <img src={'https://i.imgur.com/bT71daS.jpg'} />
                         <p className='text-center'>Allows users to search for and view GIFs from the Giphy API.</p>
                         <h5 className='text-center'>Technologies Used</h5>
-                        <p className='text-center'>jQuery, AJAX, </p>
+                        <p className='text-center'>jQuery, AJAX</p>
                     </a>
                 </div>
             </div>
