@@ -13,16 +13,16 @@ var Nav = () => {
                 <div className="top-bar-right">
                     <ul className="menu">
                         <li>
-                            <IndexLink to="/" activeClassName="active-link" >Home</IndexLink>
+                            <IndexLink to="/" activeClassName='currentPage'>Home</IndexLink>
                         </li>
                         <li>
-                            <Link to="/about" activeClassName="hollow">About</Link>
+                            <Link to="/about" activeClassName='currentPage'>About</Link>
                         </li>
                         <li>
-                            <Link to="/portfolio" activeClassName="hollow" >Portfolio</Link>
+                            <Link to="/portfolio" activeClassName='currentPage'>Portfolio</Link>
                         </li>
                         <li>
-                            <Link to="/contact_me" activeClassName="active-link">Contact</Link>
+                            <Link to="/contact_me" activeClassName='currentPage'>Contact</Link>
                         </li>
                     </ul>
                 </div>

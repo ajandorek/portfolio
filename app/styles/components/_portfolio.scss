@@ -4,6 +4,8 @@
     transition: background .3s ease;
     display: block;
     height: 330px;
+    border-color: $light-grey-border;
+    border-radius: 25px;
 
     p {
         font-style: italic;
