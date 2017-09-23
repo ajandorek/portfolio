@@ -13,7 +13,9 @@ var Nav = () => {
                 <div className="top-bar-right">
                     <ul className="menu">
                         <li>
-                            <IndexLink to="/" activeClassName='currentPage'>Home</IndexLink>
+                            <IndexLink to="/" 
+                            class='currentPage'
+                            activeClassName='currentPage'>Home</IndexLink>
                         </li>
                         <li>
                             <Link to="/about" activeClassName='currentPage'>About</Link>

@@ -3,7 +3,7 @@ import React from 'react';
 var ContactForm = () => {
     return (
         <div className='grid-container'>
-            <p>Interested in chatting? Please feel free to contact me below!</p>
+            <p className='text-center header'>Interested in chatting? Please feel free to contact me below!</p>
             <div className="container__form">
                 <form className='input-group-rounded'>
                     <label>Name</label>
