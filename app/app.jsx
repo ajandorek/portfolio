@@ -7,7 +7,7 @@ import Main from 'Main';
 import About from 'About';
 import Home from 'Home';
 import Portfolio from 'Portfolio';
-import Blog from 'Blog';
+import ContactForm from 'ContactForm';
 
 // Load foundation
 require('style!css!foundation-sites/dist/css/foundation.min.css');
@@ -21,7 +21,7 @@ ReactDOM.render(
         <Route path="/" component={Main}>
             <Route path="about" component={About} />
             <Route path="portfolio" component={Portfolio} />
-            <Route path="blog" component={Blog} />
+            <Route path="contact_me" component={ContactForm} />
             <IndexRoute component={Home} />
         </Route>
     </Router>,
