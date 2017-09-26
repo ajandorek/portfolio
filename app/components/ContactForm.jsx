@@ -7,13 +7,13 @@ var ContactForm = () => {
             <div className="container__form">
                 <form className='input-group-rounded'>
                     <label>Name</label>
-                    <input className='input-group-field'/>
+                    <input name='name' className='input-group-field'/>
                     <label>Email</label>
-                    <input className='input-group-field'/>
+                    <input name='email' className='input-group-field'/>
                     <label>Subject</label>
-                    <input className='input-group-field'/>
+                    <input name='subject' className='input-group-field'/>
                     <label>Message</label>
-                    <textarea className='input-group-field'/>
+                    <textarea name='message' className='input-group-field'/>
                     <button className='button hollow'>Submit</button>
                 </form>
             </div>
