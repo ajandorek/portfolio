@@ -5,7 +5,7 @@ var ContactForm = () => {
         <div className='grid-container'>
             <p className='text-center header'>Interested in chatting? Please feel free to contact me below!</p>
             <div className="container__form">
-                <form className='input-group-rounded'>
+                <form action='/send-email' method="post" className='input-group-rounded'>
                     <label>Name</label>
                     <input name='name' className='input-group-field'/>
                     <label>Email</label>
