@@ -29,7 +29,8 @@ module.exports = {
             Home: 'app/components/Home.jsx',
             Portfolio: 'app/components/Portfolio.jsx',
             ContactForm: 'app/components/ContactForm.jsx',
-            Contact: 'app/components/Contact.jsx'
+            Contact: 'app/components/Contact.jsx',
+            Modal: 'app/components/Contact.jsx'
         },
         extensions: ['', '.js', '.jsx']
     },

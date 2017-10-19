@@ -14,7 +14,7 @@ var Nav = () => {
                     <ul className="menu">
                         <li>
                             <IndexLink to="/" 
-                            class='currentPage'
+                            className='currentPage'
                             activeClassName='currentPage'>Home</IndexLink>
                         </li>
                         <li>

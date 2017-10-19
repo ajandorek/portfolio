@@ -34,19 +34,18 @@ app.post('/send-email', function (req, res) {
         }
     });
     let mailOptions = {
-        from: req.body.name + '&lt;' + req.body.email + '&gt;',
+        from: `${req.body.name} <${req.body.email}>`,
         to: 'ajandorek@gmail.com', // list of receivers
         subject: req.body.subject, // Subject line
         text: req.body.message, // plain text body
     };
+    console.log(mailOptions);
 
     transporter.sendMail(mailOptions, (error, info) => {
         if (error) {
             return console.log(error);
         }
-        console.log('Message %s sent: %s', info.messageId, info.response);
-        res.render('index');
-    });
+    }).then(obj=>res.json(obj));
 });
 
 app.listen(PORT, function () {
