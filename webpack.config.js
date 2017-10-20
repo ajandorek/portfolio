@@ -1,13 +1,4 @@
 var webpack = require('webpack');
-var envFile = require('node-env-file');
-
-process.env.NODE_ENV = process.env.NODE_ENV || 'development';
-
-try {
-    envFile(path.join(__dirname, 'config/' + process.env.NODE_ENV + '.env'));
-} catch (e) {
-
-}
 
 module.exports = {
     entry: [
@@ -22,12 +13,6 @@ module.exports = {
         new webpack.ProvidePlugin({
             '$': 'jquery',
             'jQuery': 'jquery'
-        }),
-        new webpack.DefinePlugin({
-            'process.env': {
-                NODE_ENV: JSON.stringify(process.env.NODE_ENV),
-                SENDGRID_API_KEY: JSON.stringify(process.env.SENDGRID_API_KEY)
-            }
         })
     ],
     output: {
