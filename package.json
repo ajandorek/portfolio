@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "set NODE_ENV=dev && node server.js"
   },
   "license": "MIT",
   "dependencies": {
@@ -11,6 +11,7 @@
     "axios": "^0.16.1",
     "body-parser": "^1.18.2",
     "express": "^4.13.4",
+    "node-env-file": "^0.1.8",
     "nodemailer": "^4.1.1",
     "react": "0.14.7",
     "react-dom": "0.14.7",
