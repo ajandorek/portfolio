@@ -24,28 +24,16 @@ app.use(function (req, res, next) {
 //  });
 
 app.post('/send-email', function (req, res) {
-    let transporter = nodeMailer.createTransport({
-        host: 'smtp.gmail.com',
-        port: 465,
-        secure: true,
-        auth: {
-            user: 'ajtesting28@gmail.com',
-            pass: 'testaj123'
-        }
-    });
-    let mailOptions = {
-        from: `${req.body.name} <${req.body.email}>`,
-        to: 'ajandorek@gmail.com', // list of receivers
-        subject: req.body.subject, // Subject line
-        text: req.body.message, // plain text body
+    const sgMail = require('@sendgrid/mail');
+    sgMail.setApiKey(process.env.SENDGRID_API_KEY);
+    const msg = {
+      to: 'ajandorek@gmail.com',
+      from: `${req.body.name} <${req.body.email}>`,
+      subject: req.body.subject,
+      text: req.body.message,
+      html: '<strong>and easy to do anywhere, even with Node.js</strong>',
     };
-    console.log(mailOptions);
-
-    transporter.sendMail(mailOptions, (error, info) => {
-        if (error) {
-            return console.log(error);
-        }
-    }).then(obj=>res.json(obj));
+    sgMail.send(msg);
 });
 
 app.listen(PORT, function () {
