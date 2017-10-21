@@ -39,7 +39,7 @@ var Portfolio = () => {
                     </a>
                 </div>
                 <div className="small-4 cell">
-                    <a className="callout" href="https://overwatch-rpg.herokuapp.com/"
+                    <a className="callout" href="http://overwatch-rpg.herokuapp.com/"
                         target="blank">
                         <h4 className='text-center'>Overwatch RPG</h4>
                         <img src={'http://i.imgur.com/qbBRC4d.png'} />
