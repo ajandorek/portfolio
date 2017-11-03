@@ -3746,6 +3746,10 @@ react-dom@0.14.7:
   version "0.14.7"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-0.14.7.tgz#973c302110b3a680c9afe69d07c623b9c0952d82"
 
+react-fade-in@^0.1.5:
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/react-fade-in/-/react-fade-in-0.1.5.tgz#cb487e2f695ed536ec29d80b963570e29276b4df"
+
 react-fontawesome@^1.6.1:
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/react-fontawesome/-/react-fontawesome-1.6.1.tgz#eddce17e7dc731aa09fd4a186688a61793a16c5c"

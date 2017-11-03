@@ -1,5 +1,6 @@
 import React from 'react';
 import Nav from 'Nav';
+import FadeIn from 'react-fade-in';
 
 var Main = (props) => {
     return (
@@ -7,7 +8,9 @@ var Main = (props) => {
             <Nav />
             <div className='row'>
                 <div className='columns medium-6 large-8 small-centered'>
-                    {props.children}
+                    <FadeIn>
+                        {props.children}
+                    </FadeIn>
                 </div>
             </div>
         </div>

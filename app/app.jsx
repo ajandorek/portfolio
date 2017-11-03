@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Route, Router, IndexRoute, hashHistory} from 'react-router';
-
+import {Route, Router, IndexRoute, useRouterHistory } from 'react-router';
+import { createHashHistory } from 'react-router/node_modules/history'
 //Load components
 import Main from 'Main';
 import About from 'About';
@@ -16,8 +16,10 @@ $(document).foundation();
 //App css
 require('style!css!sass!applicationStyles');
 
+const appHistory = useRouterHistory(createHashHistory)({ queryKey: false })
+
 ReactDOM.render(
-    <Router history={hashHistory}>
+    <Router history={appHistory}>
         <Route path="/" component={Main}>
             <Route path="about" component={About} />
             <Route path="portfolio" component={Portfolio} />
