@@ -21,7 +21,7 @@ const appHistory = useRouterHistory(createHashHistory)({ queryKey: false })
 ReactDOM.render(
     <Router history={appHistory}>
         <Route path="/" component={Main}>
-            <Route path="about" component={About} />
+            {/* <Route path="about" component={About} /> */}
             <Route path="portfolio" component={Portfolio} />
             <Route path="contact_me" component={ContactForm} />
             <IndexRoute component={Home} />

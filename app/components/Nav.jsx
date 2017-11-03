@@ -17,9 +17,9 @@ var Nav = () => {
                             className='currentPage'
                             activeClassName='currentPage'>Home</IndexLink>
                         </li>
-                        <li>
+                        {/* <li>
                             <Link to="/about" activeClassName='currentPage'>About</Link>
-                        </li>
+                        </li> */}
                         <li>
                             <Link to="/portfolio" activeClassName='currentPage'>Portfolio</Link>
                         </li>
