@@ -6,7 +6,7 @@
     color: white;
 }
 
-.top-bar {
+.top-bar-right {
     .menu-text {
         color: $nav-text-color;
     }
@@ -20,4 +20,13 @@
       a:hover { 
           background:$light-grey-border; 
         }
+}
+
+.logo {
+    color: $nav-text-color !important;
+    transition: all .2s ease-in-out; 
+}
+
+.logo:hover { 
+    transform: scale(1.2); 
 }

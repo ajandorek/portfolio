@@ -7,7 +7,7 @@ var Nav = () => {
             <div className="top-bar">
                 <div className="top-bar-left">
                     <ul className="menu">
-                        <li className="menu-text">Alec Jandorek</li>
+                        <Link to="/" className="menu-text logo">Alec Jandorek</Link>
                     </ul>
                 </div>
                 <div className="top-bar-right">
