@@ -8,6 +8,7 @@ import About from 'About';
 import Home from 'Home';
 import Portfolio from 'Portfolio';
 import ContactForm from 'ContactForm';
+import ThankYou from 'ThankYou';
 
 // Load foundation
 require('style!css!foundation-sites/dist/css/foundation.min.css');
@@ -24,6 +25,7 @@ ReactDOM.render(
             {/* <Route path="about" component={About} /> */}
             <Route path="portfolio" component={Portfolio} />
             <Route path="contact_me" component={ContactForm} />
+            <Route path="thank_you" component={ThankYou} />
             <IndexRoute component={Home} />
         </Route>
     </Router>,

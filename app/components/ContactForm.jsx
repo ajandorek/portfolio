@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import FadeIn from 'react-fade-in';
+import Contact from 'Contact';
 
 class ContactForm extends Component {
 
@@ -8,6 +9,7 @@ class ContactForm extends Component {
       <FadeIn>
         <div className='grid-container'>
           <p className='text-center header'>Interested in chatting? Please feel free to contact me below!</p>
+          <Contact />
           <div className="container__form">
             <form action='/send-email' method="get" className='input-group-rounded'>
               <label>Name</label>

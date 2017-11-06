@@ -30,7 +30,8 @@ module.exports = {
             Portfolio: 'app/components/Portfolio.jsx',
             ContactForm: 'app/components/ContactForm.jsx',
             Contact: 'app/components/Contact.jsx',
-            Modal: 'app/components/Contact.jsx'
+            Modal: 'app/components/Contact.jsx',
+            ThankYou: 'app/components/ThankYou.jsx'
         },
         extensions: ['', '.js', '.jsx']
     },
