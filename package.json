@@ -11,6 +11,7 @@
     "axios": "^0.16.1",
     "body-parser": "^1.18.2",
     "express": "^4.13.4",
+    "express-pdf": "^1.2.2",
     "history": "^4.7.2",
     "node-env-file": "^0.1.8",
     "nodemailer": "^4.1.1",

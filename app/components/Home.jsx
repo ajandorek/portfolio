@@ -13,7 +13,7 @@ var Home = (props) => {
         </div>
         <hr />
         <p>Hi There I'm Alec! I'm a full stack web developer living in Austin, TX. I am a recent bootcamp graduate looking to break into the development field. I enjoy working on projects that incorporate React and Redux, and challenging myself to always be on the cutting edge with new technologies.</p>
-        <p>Feel free to take a look through my porfolio of applications I have created or collaborated on. Interested in chatting about an upcoming project? Drop me a line from one of the venues below and be sure to check out my resume <a href="#">here</a>. I look forward to hearing from you!</p>
+        <p>Feel free to take a look through my porfolio of applications I have created or collaborated on. Interested in chatting about an upcoming project? Drop me a line from one of the venues below and be sure to check out my resume <a href="/resume" target="_blank">here</a>. I look forward to hearing from you!</p>
         <hr />
         <Contact />
       </div>

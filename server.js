@@ -1,6 +1,8 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var path = require('path');
+var fs = require('fs');
+var pdf = require('express-pdf');
 
 var app = express();
 const PORT = process.env.PORT || 3000;
@@ -9,6 +11,7 @@ const apikey = process.env.SENDGRID_API_KEY;
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(express.static('public'));
+app.use(pdf);
 
 app.use(function (req, res, next) {
     if (req.headers['x-forwarded-proto'] === 'https') {
@@ -16,6 +19,10 @@ app.use(function (req, res, next) {
     } else {
         next();
     }
+});
+
+app.use('/resume', function(req, res){
+    res.pdf(path.resolve(__dirname, './app/documents/resume.pdf'));
 });
 
 app.get('/send-email', function (req, res) {
